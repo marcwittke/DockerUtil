@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarcWittke.DockerUtil", "src\MarcWittke.DockerUtil\MarcWittke.DockerUtil.csproj", "{A491487A-447A-4F3D-A40C-848621B2C72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B952BD6F-F226-4704-AA10-5946ED23C6EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1D8DB58F-3A68-4E0A-AC07-1714BCBE17D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarcWittke.DockerUtil.Tests", "tests\MarcWittke.DockerUtil.Tests\MarcWittke.DockerUtil.Tests.csproj", "{D8039709-BC87-4EAB-998E-8DD6BEDC0C0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A491487A-447A-4F3D-A40C-848621B2C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A491487A-447A-4F3D-A40C-848621B2C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A491487A-447A-4F3D-A40C-848621B2C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A491487A-447A-4F3D-A40C-848621B2C72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8039709-BC87-4EAB-998E-8DD6BEDC0C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8039709-BC87-4EAB-998E-8DD6BEDC0C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8039709-BC87-4EAB-998E-8DD6BEDC0C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8039709-BC87-4EAB-998E-8DD6BEDC0C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A491487A-447A-4F3D-A40C-848621B2C72A} = {B952BD6F-F226-4704-AA10-5946ED23C6EE}
+		{D8039709-BC87-4EAB-998E-8DD6BEDC0C0E} = {1D8DB58F-3A68-4E0A-AC07-1714BCBE17D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A87547-5A6A-4142-8AA4-8BBC59F2826E}
+	EndGlobalSection
+EndGlobal
