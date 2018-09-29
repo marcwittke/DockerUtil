@@ -2,8 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+	<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>  
+	<IsPackable>true</IsPackable>
   </PropertyGroup>
 
+  
+  <PropertyGroup>
+    <Authors>Marc Wittke</Authors>
+    <Company>anic GmbH</Company>
+    <Product>Docker Utils</Product>
+    <Description>Provides an API to start/kill docker containers from dot net core</Description>
+    <Copyright></Copyright>
+    <PackageLicenseUrl>https://github.com/marcwittke/MarcWittke.DockerUtil/blob/master/license.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/marcwittke/MarcWittke.DockerUtil</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/marcwittke/MarcWittke.DockerUtil.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>docker api net core</PackageTags>
+  </PropertyGroup>
+  
   <ItemGroup>
     <PackageReference Include="Backend.Fx" Version="1.4.0" />
     <PackageReference Include="Docker.DotNet" Version="3.125.2" />
